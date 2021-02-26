@@ -1,0 +1,14 @@
+import random
+x = random.randint(1,100)
+
+
+
+while True:
+        y = int(input("输入一个0-100的整数:"))
+        if y < x:
+            print("大一点")
+        elif y == x:
+            print("猜对了")
+            break
+        elif y > x:
+            print("小一点")
