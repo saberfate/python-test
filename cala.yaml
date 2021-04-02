@@ -1,0 +1,58 @@
+add:
+  AddDatas:
+    - - 1
+      - 1
+      - 2
+    - - 0.1
+      - 0.1
+      - 0.2
+    - [-1, -1, -2]
+    - [0.1, 0.2, 0.3]
+
+  DivDatas:
+    - - 6
+      - 3
+      - 2
+    - - 0.1
+      - 1
+      - 0.1
+    - [-1,-1,1]
+    - [0.1,0.1,0.01]
+    - [1,0,1]
+
+  SubDatas:
+    - [1,1,0]
+    - [-1,-1,0]
+    - [0.2,1,-0.8]
+    - [0.3,0.2,0.1]
+
+  MulDatas:
+    - [1,2,2]
+    - [-1,-2,2]
+    - [-1,2,-2]
+    - [0.1,0.2,0.02]
+
+  AddIds:
+    - 'int'
+    - 'float'
+    - 'negative'
+    - 'round'
+
+  DivIds:
+    - 'int'
+    - 'float'
+    - 'negative'
+    - 'fail'
+    - 'zero'
+
+  SubIds:
+    - 'int'
+    - 'negative'
+    - 'float_sub_int'
+    - 'float_sub_float'
+
+  MulIds:
+    - 'int'
+    - 'negative'
+    - 'int_mul_negative'
+    - 'float'
